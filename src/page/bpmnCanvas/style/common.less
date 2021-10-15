@@ -1,0 +1,304 @@
+@whiteTheme: #f6f8fa;
+@blackTheme: #4c4c4c;
+
+#common-scroll-panel {
+
+  ::-webkit-scrollbar {
+    display: inline-block;
+    // overflow-x: scroll;
+  }
+
+  ::-ms-scrollbar {
+    display: inline-block;
+  }
+
+  .scrollbar {
+    display: inline-block;
+  }
+}
+
+.el-dialog__body {
+  padding: 1.875rem 1.25rem;
+}
+
+.common-property-panel {
+  position: absolute;
+  right: 0px;
+  border-left: 1px solid #d3d3d3;
+  width: 17vw;
+  height: 90vh;
+
+  .el-tabs__item.is-active {
+    color: #00b8a4;
+  }
+
+  .el-tabs__item:hover {
+    color: #00b8a4;
+  }
+
+  .el-tabs__active-bar {
+    background-color: #00b8a4;
+  }
+
+  .tabPane {
+    overflow-y: scroll;
+    height: calc(62vh - 118px);
+    border-top: 1px solid #D3D3D3;
+
+    .tabPaneTitle {
+      height: 38px;
+      line-height: 38px;
+      color: #00b8a4;
+      border-bottom: 2px solid #00b8a4;
+    }
+  }
+
+  .el-input--mini .el-input__icon {
+    line-height: 1.75rem;
+  }
+
+  .attributeStyle {
+    padding-bottom: 135px;
+  }
+
+  .el-collapse-item__header {
+    padding-left: 14px;
+    font-size: 16px;
+    padding-right: 14px;
+  }
+
+  .el-input--mini .el-input__inner {
+    height: 30px;
+  }
+
+  .el-input--small .el-input__inner {
+    height: 32px;
+  }
+
+  .el-tabs__item {
+    font-size: 15px;
+  }
+
+  .el-button--primary {
+    font-size: 12px;
+  }
+
+  .el-button--primary:hover {
+    font-size: 12px;
+  }
+
+  .cursor {
+    cursor: pointer;
+  }
+
+  .newAttributeForm {
+    padding-left: 16px;
+    text-align: left;
+    line-height: 24px;
+
+    .newProp {
+      margin-top: 4px;
+    }
+
+    .el-input {
+      width: 80%;
+    }
+  }
+
+  .newAttributeForm:not(:first-child) {
+    margin-top: 16px;
+  }
+
+  .attributeForm:not(:first-child) {
+    margin-top: 12px;
+  }
+
+  .el-table__header-wrapper {
+    height: 40px;
+    margin-top: 4px;
+  }
+
+  .el-table__header {
+    th:nth-last-child(2) {
+      padding-right: 0x;
+      padding-right: 0px !important;
+    }
+  }
+
+  .el-table__row {
+    >td:nth-last-child(2) {
+      padding-right: 0px;
+    }
+  }
+
+  .attributeForm {
+    padding-left: 16px;
+    text-align: left;
+    line-height: 24px;
+
+    .attrTitle {
+      font-size: 16px;
+      margin-bottom: 6px;
+
+      .titleAdd {
+        margin-left: 72%;
+      }
+    }
+
+    .topStyle {
+      margin-top: 10px;
+    }
+
+    .spaceStyle {
+      margin-top: 5px;
+    }
+
+    .attrVolume {
+      margin-right: 5%;
+
+      .cardBottom {
+        margin-top: 8px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        // 滚动条滑块样式
+        // height: 3px;
+      }
+
+      ::-webkit-scrollbar {
+        height: 5px;
+      }
+
+      .attrTable {
+        overflow-x: scroll;
+
+        .attrTableHead {
+          display: flex;
+          text-align: center;
+
+          .attrTableHeadFirst {
+            width: 17px;
+            height: 17px;
+            flex-shrink: 0;
+            margin-right: 4px;
+            padding: 4px;
+            margin-bottom: 6px;
+
+            .attrTableHeadFirstTriangle {
+              width: 0px;
+              height: 0px;
+            }
+          }
+
+          .attrTableHeadFont {
+            width: 32px;
+            height: 25px;
+            font-size: 13px;
+            flex-shrink: 0;
+          }
+        }
+
+        .attrTableBody {
+          display: flex;
+          text-align: center;
+
+          .attrTableBodyLeft {
+            margin-right: 4px;
+
+            .attrTableBodyLeftContent {
+              width: 26px;
+              height: 21px;
+            }
+          }
+
+          .attrTableBodyRight {
+            .attrTableBodyRow {
+              height: 22px;
+              display: flex;
+
+              .attrTableBodyColumn {
+                width: 32px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .attrContent {
+      .el-button--text {
+        color: #00b8a4;
+      }
+
+      .attrFile {
+        .el-input {
+          width: 75%;
+        }
+      }
+
+      .cardBottom {
+        margin-top: 8px;
+
+        .cardBottomIcon {
+          margin-left: 90%;
+        }
+
+        .cardBottomDelete {
+          margin-left: 92%;
+        }
+      }
+
+    }
+
+    .customAddStyle {
+      width: 95%;
+      cursor: pointer;
+      height: 33px;
+
+      .customAddChildStyle {
+        margin-left: 45%;
+        font-size: 40px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .materialDataStyle {
+    margin-top: -15px;
+
+    .el-table th,
+    .el-table tr {
+      height: 22px;
+    }
+
+    .el-table--striped .el-table__body tr.el-table__row--striped.current-row td {
+      height: 22px;
+    }
+
+    .el-table,
+    .el-table__expanded-cell,
+    .el-table th {
+      div {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .formSaveStyle {
+    position: fixed;
+    bottom: 0px;
+    height: 36px;
+    padding: 8px;
+    width: 16vw;
+
+    .formSaveBtnStyle {
+      line-height: 36px;
+    }
+  }
+
+  .formSaveStyle:hover {
+    cursor: pointer;
+  }
+}

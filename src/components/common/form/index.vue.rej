@@ -1,0 +1,9 @@
+diff a/src/components/common/form/index.vue b/src/components/common/form/index.vue	(rejected hunks)
+@@ -166,6 +166,7 @@
+                         <span v-else>{{ $t(data[item.props.label]) }}</span>
+                       </template>
+                     </el-cascader>
++                    <el-time-picker
+                       v-if="item.type=='label_time'"
+                       v-model="formData[item.prop]"
+                       :disabled="block.disabled || item.disabled"

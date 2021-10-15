@@ -1,0 +1,319 @@
+
+HTML, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,
+pre, form, fieldset, table, th, td {
+    border:none;
+    font-family:"微软雅黑","黑体","宋体";
+    font-size:14px;
+    margin:0px;
+    padding:0px;
+    
+    .el-scrollbar__bar, .is-vertical{
+        width: 0 !important;
+    }
+    }
+    .el-table__header-wrapper{
+        height: auto;
+    }
+    input{
+        background: #e6e6e9
+    }
+html,body{
+    // height: 100%;
+    // width: 100%;
+    }
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+    // overflow: scroll;
+}
+.el-pagination__sizes .el-input .el-input__inner{
+    min-height: 32px !important;
+    height: 32px !important;
+    font-size: 14px;
+
+    
+    
+}
+.el-breadcrumb__inner{
+    font-size: 14px;
+}
+.el-breadcrumb__separator{
+    font-size: 12px;  
+}
+.el-icon-arrow-right:before {
+    content: "\e6e0";     
+    margin-bottom: 0px;
+    line-height: -148px;
+    height: 18px;
+    display: inline-block;
+    vertical-align:middle;
+    padding: -14px 0;
+}
+.el-pagination__sizes .el-input .el-input__inner:focus{
+    font-size: 14px;
+}
+.el-pagination__sizes .el-input .el-input__inner:hover{
+    border: transparent;
+}
+.ellipsis{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    // max-width: 85%;
+    display: inline-flex;
+    overflow: hidden; 
+}
+.header-ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 85%;
+    display: inline-flex;
+    overflow: hidden;
+  }
+.el-tree{
+    height: 45vh;
+}
+textarea {
+	font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+.el-range-editor--mini.el-input__inner{
+    height: 38px;
+}
+a{
+    text-decoration:none;
+}
+a:link{
+    color:#fff;
+}
+a:visited{
+    color:#fff;
+}
+a:hover{
+    color:#fff;
+}
+a:active{
+    color:#fff;
+}
+input::-ms-clear{
+    display:none;
+    }
+input::-ms-reveal{
+    display:none;
+}
+ .el-pagination.is-background .btn-next,  .el-pagination.is-background .btn-prev,  .el-pagination.is-background .el-pager li{
+    min-width: 38px !important;
+    min-height: 28px !important;
+    font-size: 14px !important;
+    line-height: 28px;
+}
+input{
+    -webkit-appearance: none;
+    margin: 0;
+    outline: none;
+    padding: 0;
+}
+input::-webkit-input-placeholder{
+    color: #ccc;
+}
+.el-table__header-wrapper,.el-table__fixed-right,.el-table__fixed{
+    margin-top: 10px;
+}
+.el-table__fixed-right{
+    right: 17px !important;
+}
+.el-table__row{
+    >td:nth-last-child(2){
+      padding-right: 17px;
+    }
+  
+}
+input::-ms-input-placeholder{
+    color: #ccc;
+}
+input::-moz-placeholder{
+    color: #ccc;
+}
+input[type=submit],input[type=button]{
+    cursor: pointer;
+}
+button[disabled], input[disabled] {
+    cursor: default;
+}
+img{
+    border:none;
+    vertical-align: middle;
+}
+ul,ol,li{
+    list-style-type:none;
+}
+// /*公共方法*/
+.clear{
+    clear: both;
+}
+
+.clearleft{
+    clear: left;
+}
+.clearright{
+    clear: right;
+}
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+.cursor{
+    cursor: pointer;
+}
+// /*背景及色值表*/
+.bg000{
+    background: #000;
+}
+.color000{
+    color: #000;
+}
+.mt15{
+    margin-top: 15px;
+}
+.icons .el-dialog__body{
+    height: 50vh;
+    overflow: scroll;
+}
+.el-dialog__body{
+    padding: 30px 110px;
+   
+}
+.el-textarea__inner{
+    height: 118px;
+    
+}
+.el-input--mini .el-input__icon{
+    line-height: 38px;
+}
+.tipClass{
+    text-align: left;
+}
+body{
+    .breadcrumb .el-breadcrumb__item{
+        font-weight: normal !important;
+    }
+    .operate {
+        //    text-align: right;
+        position: absolute;
+        right: 4%;
+        bottom: 20px;
+    
+        .cancel{
+            font-size: 16px ;
+            margin-right: 17px;
+        }
+        .confirm,.confirm:hover{
+            font-size: 16px !important;  
+        }
+      }
+}
+.files{
+    >.el-card__body{
+        padding: 0;
+      //   background: #323232;
+        color: #fff;
+    }
+}
+::-webkit-scrollbar {
+    display: none; /* Chrome Safari */
+  }
+  
+  .el-menu-item ,.dropItem{
+      padding-left: 45px !important;
+  }
+  .el-table__header{
+      th{
+        font-weight: 700;
+      }
+     th:nth-last-child(2){
+        padding-right: 17px;
+      
+       
+        padding-right: 17px !important;
+     }
+  }
+  // 小弹窗
+  .miniMessage{
+    width: 29.5rem !important;
+    height: 14rem !important;
+    min-height: 14rem !important;
+    
+    .el-message-box__content{
+    
+        width: 96% !important;
+        height: 49% !important;
+        .el-message-box__message{
+            p{
+                font-size: 16px !important;
+                max-width: 27.5rem;
+                max-height: 14rem;
+                font-weight: 400;
+              
+            }
+        }
+    }
+    .el-message-box__status.el-icon-warning{
+       
+    }
+   
+}
+.el-submenu__icon-arrow{
+    right: auto;
+    margin-left: 10px;
+}
+.el-table--border::after, .el-table--group::after, .el-table::before{
+    background: transparent;
+}
+.el-message-box__btns{
+    .el-button{
+       font-size: 14px !important;
+    }
+}
+.el-table__fixed-right::before, .el-table__fixed::before{
+    opacity: 0;
+}
+.form{
+    .el-button{
+        padding: 0 17px !important;
+        >span{
+            margin-top: 3px;
+    display: inline-block;
+    >img{
+        padding: 0 0px 2px 0;
+        margin-right: 6px !important;
+    }
+        }
+    }
+}
+.el-table__fixed-right-patch{
+    opacity: 0;
+}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
+    -webkit-appearance:textfield;
+}    
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none !important;
+}
+.el-pagination{
+    input{
+        background: transparent !important;
+    }
+}
+.el-breadcrumb__item:nth-last-child(1){
+    color: red;
+}
+.icons{
+    img{
+         vertical-align: middle ;width: 14px !important;
+    }
+}
+.el-table-column--selection .cell{
+    padding-left: 11px;
+}

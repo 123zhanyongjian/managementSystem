@@ -1,0 +1,232 @@
+@whiteTheme: #f6f8fa;
+// 由深到浅  #242424  -  #323232  -  #4c4c4c
+@blackTheme: #4c4c4c;
+
+.property-panel-black {
+  .el-tabs__header {
+    background: #242424;
+  }
+
+  .el-tabs__item {
+    color: #ffffff;
+  }
+
+  .attributeStyle {
+    .el-collapse-item__header {
+      color: #ffffff;
+      background: #323232;
+      border-bottom: 0.0625rem solid #4d4d4d;
+    }
+
+    .el-collapse-item__wrap {
+      color: #ffffff;
+      background: #323232;
+      border-bottom: 0.0625rem solid #4d4d4d;
+
+      .el-collapse-item__content {
+        color: #ffffff;
+      }
+    }
+  }
+
+  .attributeForm {
+    .attrLabel {
+      color: rgba(255, 255, 255, 0.6);
+
+      .titleAdd {
+        margin-left: 72%;
+      }
+    }
+
+    .attrContent {
+      .attrFile {
+        .el-input {
+          background-color: #fff;
+        }
+      }
+
+      .el-input {
+        width: 95%;
+        background-color: @blackTheme;
+        border-radius: 7px;
+      }
+
+      .inputWidthRecovery {
+        .el-input {
+          width: 100%;
+        }
+
+        .inputValueLeft {
+          input {
+            text-align: left;
+          }
+        }
+      }
+
+      .filePathBtn {
+        margin-left: 7px;
+        background: #00b8a4;
+        color: #fff;
+        font-size: 10px;
+      }
+
+      .cardStyle {
+        background-color: @blackTheme;
+        color: rgba(255, 255, 255, 0.6);
+        border-radius: 6px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        width: 90%;
+        padding: 10px;
+        display: flex;
+
+        .el-input {
+          width: 100%;
+
+          input {
+            background-color: #323232;
+          }
+        }
+      }
+
+      .cardVariableStyle {
+        background-color: @blackTheme;
+        color: rgba(255, 255, 255, 0.6);
+        border-radius: 6px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        width: 90%;
+        padding: 10px;
+
+        .el-input {
+          width: 100%;
+
+          input {
+            background-color: #323232;
+          }
+        }
+      }
+    }
+
+    .attrVolume {
+      .attrTable {
+        .attrTableHead {
+
+          .attrTableHeadFirst {
+            border: 1px solid #575757;
+            background: @blackTheme;
+
+            .attrTableHeadFirstTriangle {
+              border-bottom: 15px solid #666666;
+              border-left: 15px solid transparent;
+            }
+          }
+
+          .attrTableHeadFont:last-child {
+            border-right: 1px solid #575757;
+          }
+
+          .attrTableHeadFont {
+            background-color: @blackTheme;
+            border-top: 1px solid #575757;
+            border-bottom: 1px solid #575757;
+            border-left: 1px solid #575757;
+            color: rgba(255, 255, 255, 0.8);
+          }
+        }
+
+        .attrTableBody {
+          margin-bottom: 12px;
+
+          .attrTableBodyLeft {
+            background-color: @blackTheme;
+            color: rgba(255, 255, 255, 0.8);
+
+            .attrTableBodyLeftContent {
+              border-top: 1px solid #575757;
+              border-right: 1px solid #575757;
+              border-left: 1px solid #575757;
+            }
+
+            .attrTableBodyLeftContent:last-child {
+              border-bottom: 1px solid #575757;
+            }
+          }
+
+          .attrTableBodyRight {
+            .attrTableBodyRow:last-child {
+              border-bottom: 1px solid #575757;
+            }
+
+            .attrTableBodyRow {
+              border-right: 1px solid #575757;
+
+              .attrTableBodyColumn {
+                border-top: 1px solid #575757;
+                border-left: 1px solid #575757;
+              }
+
+              .attrTableBodyColumn:hover {
+                border: 1px solid #08C0A9;
+              }
+
+              [contenteditable]:focus {
+                outline: none;
+                border: 1px solid #08C0A9;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .attrSelect {
+      .el-input {
+        width: 100%;
+        border-radius: 7px;
+
+        input {
+          background-color: @blackTheme;
+        }
+      }
+    }
+
+    .customAddStyle {
+      border: 1px dashed rgba(255, 255, 255, 0.25);
+      border-radius: 4px;
+
+      .customAddChildStyle {
+        color: rgba(255, 255, 255, 0.2);
+      }
+    }
+  }
+
+  .materialDataStyle {
+
+    .el-table,
+    .el-table__expanded-cell,
+    .el-table th {
+      background: #323232;
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    .el-table td,
+    .el-table th.is-leaf {
+      border-bottom: 0.0625rem solid #4d4d4d;
+    }
+  }
+
+  .el-textarea__inner {
+    background-color: @blackTheme;
+  }
+
+  .formSaveStyle {
+    background: #323232;
+    border: 1px solid #4D4D4D;
+    box-shadow: 0px -4px 8px 0px rgba(0, 0, 0, 0.2);
+
+    .formSaveBtnStyle {
+      background: #00B8A4;
+      border-radius: 6px;
+      color: #ffffff;
+    }
+  }
+}

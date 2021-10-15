@@ -1,0 +1,207 @@
+@whiteTheme: #f6f8fa;
+@blackTheme: #4c4c4c;
+
+.property-panel {
+  .newAttributeForm {
+    .attrLabel {
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .attributeForm {
+    .attrLabel {
+      color: rgba(0, 0, 0, 0.5);
+
+      .titleAdd {
+        margin-left: 72%;
+      }
+    }
+
+    .attrVolume {
+      .attrTable {
+        .attrTableHead {
+
+          .attrTableHeadFirst {
+            border: 1px solid #D3D3D3;
+            background-color: @whiteTheme;
+
+            .attrTableHeadFirstTriangle {
+              border-bottom: 15px solid #D3D3D3;
+              border-left: 15px solid transparent;
+            }
+          }
+
+          .attrTableHeadFont:last-child {
+            border-right: 1px solid #D3D3D3;
+          }
+
+          .attrTableHeadFont {
+            background-color: @whiteTheme;
+            border-top: 1px solid #D3D3D3;
+            border-bottom: 1px solid #D3D3D3;
+            border-left: 1px solid #D3D3D3;
+            color: rgba(0, 0, 0, 0.8);
+          }
+        }
+
+        .attrTableBody {
+          margin-bottom: 12px;
+
+          .attrTableBodyLeft {
+            background-color: @whiteTheme;
+
+            .attrTableBodyLeftContent {
+              border-top: 1px solid #D3D3D3;
+              border-right: 1px solid #D3D3D3;
+              border-left: 1px solid #D3D3D3;
+            }
+
+            .attrTableBodyLeftContent:last-child {
+              border-bottom: 1px solid #D3D3D3;
+            }
+          }
+
+          .attrTableBodyRight {
+            .attrTableBodyRow:last-child {
+              border-bottom: 1px solid #D3D3D3;
+            }
+
+            .attrTableBodyRow {
+              border-right: 1px solid #D3D3D3;
+
+              .attrTableBodyColumn {
+                border-top: 1px solid #D3D3D3;
+                border-left: 1px solid #D3D3D3;
+              }
+
+              .attrTableBodyColumn:hover {
+                border: 1px solid #00b8a4;
+              }
+
+              [contenteditable]:focus {
+                outline: none;
+                border: 1px solid #00b8a4;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .attrContent {
+      .el-input {
+        width: 95%;
+        background-color: @whiteTheme;
+
+        input {
+          background-color: @whiteTheme;
+        }
+      }
+
+      .inputWidthRecovery {
+        .el-input {
+          width: 100%;
+
+          input {
+            background-color: @whiteTheme;
+          }
+        }
+
+        .inputValueLeft {
+          input {
+            text-align: left;
+          }
+        }
+      }
+
+      .filePathBtn {
+        margin-left: 7px;
+        background: #00b8a4;
+        color: #fff;
+        font-size: 10px;
+      }
+
+      .cardStyle {
+        background-color: @whiteTheme;
+        border-radius: 6px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        width: 90%;
+        padding: 10px;
+        display: flex;
+
+        .el-input {
+          width: 100%;
+
+          input {
+            background-color: #ffffff;
+          }
+        }
+      }
+
+      .cardVariableStyle {
+        background-color: @whiteTheme;
+        border-radius: 6px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        width: 90%;
+        padding: 10px;
+
+        .el-input {
+          width: 100%;
+
+          input {
+            background-color: #ffffff;
+          }
+        }
+      }
+    }
+
+    .attrSelect {
+      .el-select {
+        input {
+          background-color: @whiteTheme;
+        }
+      }
+
+      .el-input {
+        width: 100%;
+
+        input {
+          background-color: @whiteTheme;
+        }
+      }
+    }
+
+    .customAddStyle {
+      border: 1px dashed rgba(0, 0, 0, 0.25);
+      border-radius: 4px;
+
+      .customAddChildStyle {
+        color: rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+
+  .materialDataStyle {
+
+    .el-table,
+    .el-table__expanded-cell,
+    .el-table th {
+      background: white;
+      color: rgba(0, 0, 0, 0.6);
+    }
+  }
+
+  .el-textarea__inner {
+    background-color: @whiteTheme;
+  }
+
+  .formSaveStyle {
+    box-shadow: 0px -4px 8px 0px rgba(0, 0, 0, 0.08);
+
+    .formSaveBtnStyle {
+      background: #00B8A4;
+      border-radius: 6px;
+      color: #ffffff;
+    }
+  }
+}
